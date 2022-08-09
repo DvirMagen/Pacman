@@ -1,0 +1,16 @@
+The Results File:
+This file is created only during game save mode.
+The results file shows for each screen the number of Ghost and Pacman collisions if any.
+ Immediately afterwards the number of moves on to the end of the current screen is displayed. 
+ And then it is shown whether the Pacman has won at the present stage or lost
+
+The Steps file:
+This file is created only during game save mode.
+Each line in the file is displayed in the following format:
+Pacman - the form in the file (@), the number of moves made for direction, 
+	and the character representation direction (R/L/U/D/S)
+Ghost - The shape in the file (&), the number of moves made for direction,
+	 the character character direction (R/L/U/D/S) and the number of the ghost that moves.
+Fruit - shape of the shape in the file (F), the number of moves made for direction,
+	 the character representation direction (R/L/U/D/S), 
+	the position on the board, and how long until you disappear
